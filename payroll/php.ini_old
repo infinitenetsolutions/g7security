@@ -1,0 +1,9 @@
+memory_limit = 256M
+max_input_vars = 9000
+upload_max_filesize = 12M
+post_max_size = 13M
+file_uploads = On
+[Date]
+; Defines the default timezone used by the date functions
+; http://php.net/date.timezone
+date.timezone = America/New_York

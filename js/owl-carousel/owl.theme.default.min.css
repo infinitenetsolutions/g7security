@@ -1,0 +1,69 @@
+.owl-theme .owl-controls {	
+	text-align: center;
+	-webkit-tap-highlight-color: transparent
+}
+.owl-theme .owl-controls .owl-nav .owl-prev {	
+	position: absolute;
+	z-index: 10;
+	left: 39px;
+	top: -55px;
+}
+.owl-theme .owl-controls .owl-nav .owl-next {	
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: -55px;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-] {
+	color: #fff;
+	font-size: 18px;
+	background-color: transparent;
+	display: inline-block;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	padding-top: 5px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 0px;
+	border: 1px solid #FFF;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+	background-color:#f9b701;
+	color: #fff;
+	text-decoration: none
+}
+.owl-theme .owl-controls .owl-nav .disabled {
+	opacity: .5;
+	cursor: default
+}
+.owl-theme .owl-dots .owl-dot {
+	margin-top:20px;
+	display: inline-block;
+	zoom: 1;
+	*display:inline
+}
+.owl-theme .owl-dots .owl-dot span {
+	width: 20px;
+	height: 9px;
+	margin: 6px 6px;
+	background: transparent;
+	display: block;
+	-webkit-backface-visibility: visible;
+	-webkit-transition: opacity 200ms ease;
+	-moz-transition: opacity 200ms ease;
+	-ms-transition: opacity 200ms ease;
+	-o-transition: opacity 200ms ease;
+	transition: opacity 200ms ease;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #cccccc;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: -moz-linear-gradient(left,  rgba(255,151,79,1) 0%, rgba(255,151,79,1) 49%, rgba(255,151,79,0) 50%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(255,151,79,1) 0%,rgba(255,151,79,1) 49%,rgba(255,151,79,0) 50%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(255,151,79,1) 0%,rgba(255,151,79,1) 49%,rgba(255,151,79,0) 50%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff974f', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+	border: 1px solid #ff974f;
+}
